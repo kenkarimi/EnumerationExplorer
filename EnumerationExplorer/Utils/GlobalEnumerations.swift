@@ -28,6 +28,6 @@ struct GlobalEnumerations {
     }
     
     enum Gender: String { //No CaseIterable means we can't iterate through the enum with a ForEach, but we can still access the String values of each case with the property '.rawValue'.
-        case male = "Male", female = "Female", other = "Other"
+        case male = "Male", female = "Female", other = "Other", default_value = ""
     }
 }
